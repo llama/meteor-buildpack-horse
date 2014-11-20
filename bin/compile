@@ -48,7 +48,7 @@ METEOR="$METEOR_DIR/.meteor/meteor" # The meteor binary.
 echo "-----> Bundling bundle"
 cd $APP_CHECKOUT_DIR
 
-ls
+ls -laht
 cat .meteor/packages
 
 # Now on to bundling. Don't put the bundle in $APP_CHECKOUT_DIR, or it will
