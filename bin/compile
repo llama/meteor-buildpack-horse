@@ -49,7 +49,7 @@ echo "-----> Bundling bundle"
 cd $APP_CHECKOUT_DIR
 
 ls -laht
-cat .meteor/packages
+ls .meteor/
 
 # Now on to bundling. Don't put the bundle in $APP_CHECKOUT_DIR, or it will
 # recurse, trying to bundle up its own bundling.
